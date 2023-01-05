@@ -69,7 +69,7 @@ def grab(line):
 
 s = requests.Session()
 
-info_file = 'https://raw.githubusercontent.com/benmoose39/ustvgo_to_m3u/main/ustvgo_channel_info.txt'
+info_file = 'https://raw.githubusercontent.com/Edwin-Zarco/ustvgo_to_m3u_free/main/ustvgo_channel_info.txt'
 file = s.get(info_file).text.split('\r\n')
 total = len(list(filter(lambda x:x, file)))
 

@@ -71,7 +71,6 @@ SYFY  | SYFY | https://raw.githubusercontent.com/Theitfixer85/myepg/master/Logos
 Telemundo  | Telemundo | https://raw.githubusercontent.com/Theitfixer85/myepg/master/Logos/US/telemundo-us.png | 9200011857
 TeenNick | TeenNick | https://imgs.search.brave.com/fvTxKs3To3_J1_FJa6ET_3xFnphNuNDli3oikZVtEwo/rs:fit:1200:238:1/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9iL2JkL1Rl/ZW5OaWNrX2xvZ29f/MjAwOS5zdmcvMTI4/MHB4LVRlZW5OaWNr/X2xvZ29fMjAwOS5z/dmcucG5n | 9200006974
 TLC  | TLC | https://raw.githubusercontent.com/Theitfixer85/myepg/master/Logos/US/tlc-us.png | 9200016249
-TNT  | TNT | https://raw.githubusercontent.com/Theitfixer85/myepg/master/Logos/US/tnt-us.png | 9233011830 | VPN
 Travel Channel  | Travel | https://raw.githubusercontent.com/Theitfixer85/myepg/master/Logos/travel-channel-us.png | 9233000035
 TV Land  | TVLand | https://raw.githubusercontent.com/Theitfixer85/myepg/master/Logos/US/tv-land-us.png | 9233005468
 The Weather Channel  | TWC | https://raw.githubusercontent.com/Theitfixer85/myepg/master/Logos/weather-channel-us.png | 9200016258

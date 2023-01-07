@@ -32,7 +32,7 @@ getSample()
 def playlist_generator():
     playlist = '#EXTM3U x-tvg-url="https://www.kcpcdr.com/ustvgo.xml.gz"'
     #info_file = f'{basepath}/ustvgo_channel_info.txt'
-    info_file = 'https://raw.githubusercontent.com/benmoose39/ustvgo_to_m3u/main/ustvgo_channel_info.txt'
+    info_file = 'https://raw.githubusercontent.com/Edwin-Zarco/ustvgo_to_m3u_free/main/ustvgo_channel_info.txt'
     file = requests.get(info_file).text.split('\r\n')
 
     for line in file:

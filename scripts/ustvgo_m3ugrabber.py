@@ -1,16 +1,3 @@
-banner = r'''
-                    #########################################################################
-                    #      ____            _           _   __  __                           #
-                    #     |  _ \ _ __ ___ (_) ___  ___| |_|  \/  | ___   ___  ___  ___      #
-                    #     | |_) | '__/ _ \| |/ _ \/ __| __| |\/| |/ _ \ / _ \/ __|/ _ \     #
-                    #     |  __/| | | (_) | |  __/ (__| |_| |  | | (_) | (_) \__ \  __/     #
-                    #     |_|   |_|  \___// |\___|\___|\__|_|  |_|\___/ \___/|___/\___|     #
-                    #                   |__/                                                #
-                    #                                  >> https://github.com/benmoose39     #
-                    #########################################################################
-'''
-print(banner)
-
 import os
 import sys
 
@@ -23,7 +10,7 @@ if 'win' in sys.platform:
 def done():
     sys.exit()
     
-print('[*] Checking dependencies...')
+print('[*] Checking Dependencies...')
 while True:
     try:
         import requests
@@ -31,13 +18,13 @@ while True:
         break
     except ModuleNotFoundError as e:
         module = str(e)[17:-1]
-        print(f'[*] Installing {module} module for python')
+        print(f'[*] Installing {module} Module For Python')
         #os.system(f'{python} -m pip install --upgrade pip')
         try:
             if os.system(f'{python} -m pip install {module}') != 0:
                 raise error
         except Exception:
-            print(f'[!] Error installing "{module}" module. Do you have pip installed?')
+            print(f'[!] Error Installing "{module}" Module. Do You Have pip Installed?')
             input(f'[!] Playlist generation failed. Press Ctrl+C to exit...')
             done()
 
@@ -88,6 +75,5 @@ with open('../ustvgo.m3u', 'w') as playlist:
         pbar.update(1)
         grab(line)
     pbar.close()
-    print('\n[SUCCESS] Playlist is generated!\n')
+    print('\n[SUCCESS] Playlist Is Generated!\n')
     done()
-        

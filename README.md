@@ -33,7 +33,7 @@ crontab -e
 Add this at the end of the file in a new seperate line.
 
 ```
-0 */4 * * * ~/ustvgo_m3u_free/autorun.sh
+0 */4 * * * /home/(USER)/ustvgo_m3u_free/autorun.sh
 ```
 
 Save and exit. 

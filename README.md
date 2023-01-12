@@ -1,5 +1,7 @@
 <h1 align="center"> ustvgo_to_m3u_free </h1>
 
+![GitHub](https://img.shields.io/github/license/Edwin-Zarco/ustvgo_to_m3u_free)
+
 Grabs m3u links (for non-VPN channels) from ustvgo.tv
 
 ### Check Out The Original Project And README
